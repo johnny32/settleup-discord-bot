@@ -3,7 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>settleup_discord_bot</RootNamespace>
+    <RootNamespace>SettleUpDiscordBot</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="3.2.3" />
+  </ItemGroup>
 
 </Project>
